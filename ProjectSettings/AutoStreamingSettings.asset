@@ -1,21 +1,7254 @@
 %YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
+%TAG !u! tag:yousandi.cn,2023:
 --- !u!1200 &1
 AutoStreamingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  mSearchMode: 15
+  mSearchMode: 7
   mCustomSearchFile: 
   mTextureSearchString: 
   mMeshSearchString: 
-  mTextures: []
-  mAudios: []
+  mTextures:
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan2/s9.png
+    assetName: s9
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 109
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d19.png"
+    assetName: d19
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2034
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller6.png"
+    assetName: smaller6
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 953
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor5.png"
+    assetName: floor5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1904
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j15.png"
+    assetName: j15
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Assets/Textures/STAR/star3.png
+    assetName: star3
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 22610
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l7.png"
+    assetName: l7
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1394
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/attack2/attack1.png
+    assetName: attack1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 654
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5F00\u59CB\u754C\u9762/xiaobiao/zi.png"
+    assetName: zi
+    localFileId: 2800000
+    rtMem: 19264
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 0
+    width: 256
+    height: 168
+    abSize: 4001
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g19.png"
+    assetName: g19
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2545
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke13.png
+    assetName: be attacke13
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 602
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke9.png
+    assetName: be attacke9
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 976
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h11.png"
+    assetName: h11
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1747
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g15.png"
+    assetName: g15
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 4472
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h28.png"
+    assetName: h28
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/jump_right2/jr3.png
+    assetName: jr3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 693
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack7.png
+    assetName: attack7
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1906
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g14.png"
+    assetName: g14
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 4033
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u6B63\u7740\u8DF32/z4.png"
+    assetName: z4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 881
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Assets/Textures/STAR/star8.png
+    assetName: star8
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 21404
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h8.png"
+    assetName: h8
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1747
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r10.png"
+    assetName: r10
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1449
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan2/s5.png
+    assetName: s5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 775
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Assets/Textures/STAR/star7.png
+    assetName: star7
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 21528
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom2.png"
+    assetName: boom2
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 910
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l12.png"
+    assetName: l12
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1359
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j1.png"
+    assetName: j1
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1219
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h24.png"
+    assetName: h24
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g23.png"
+    assetName: g23
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 189
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/run_left2/paozuo2.png
+    assetName: paozuo2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 592
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q6.png"
+    assetName: q6
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 918
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q5.png"
+    assetName: q5
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 918
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l11.png"
+    assetName: l11
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1439
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+    assetName: Square
+    localFileId: 2800000
+    rtMem: 29584
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 256
+    height: 256
+    abSize: 203
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d4.png"
+    assetName: d4
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1056
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan1/s8.png
+    assetName: s8
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 785
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/attack2/attack3.png
+    assetName: attack3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 919
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao4.png
+    assetName: zhengtiao4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 928
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h17.png"
+    assetName: h17
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j12.png"
+    assetName: j12
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1286
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Run/pao2.png
+    assetName: pao2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 574
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g17.png"
+    assetName: g17
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 4122
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan1/s11.png
+    assetName: s11
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 741
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u6B63\u7740\u8DF32/z2.png"
+    assetName: z2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 744
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao1.png"
+    assetName: qianyao1
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 270
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke3.png
+    assetName: be attacke3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 797
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan1/s7.png
+    assetName: s7
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 884
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/attack2/attack7.png
+    assetName: attack7
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1812
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u9759\u9ED82/jingmo3.png"
+    assetName: jingmo3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 655
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked8.png"
+    assetName: be attacked8
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 776
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/attack2/attack5.png
+    assetName: attack5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 830
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l6.png"
+    assetName: l6
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/jump_right2/jr5.png
+    assetName: jr5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 860
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png
+    assetName: White1px
+    localFileId: 2800000
+    rtMem: 3
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 0
+    width: 1
+    height: 1
+    abSize: 82
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u9759\u9ED82/jingmo9.png"
+    assetName: jingmo9
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 707
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke12.png
+    assetName: be attacke12
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 859
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d12.png"
+    assetName: d12
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2082
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j14.png"
+    assetName: j14
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1319
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u6B63\u7740\u8DF32/z1.png"
+    assetName: z1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 642
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r15.png"
+    assetName: r15
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1106
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j31.png"
+    assetName: j31
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d2.png"
+    assetName: d2
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1065
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r9.png"
+    assetName: r9
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1532
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Die/d2.png
+    assetName: d2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 888
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l14.png"
+    assetName: l14
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1167
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked9.png"
+    assetName: be attacked9
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 947
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun5.jpg"
+    assetName: chilun5
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31462
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5F00\u59CB\u754C\u9762/\u53CC\u4EBA 1.png"
+    assetName: "\u53CC\u4EBA 1"
+    localFileId: 2800000
+    rtMem: 1536
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 0
+    width: 69
+    height: 45
+    abSize: 894
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao6.png"
+    assetName: qianyao6
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 270
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom7.png"
+    assetName: boom7
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2870
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d16.png"
+    assetName: d16
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2051
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked2.png"
+    assetName: be attacked2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 725
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g13.png"
+    assetName: g13
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 4066
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/run_right2/run3.png
+    assetName: run3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 591
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5F00\u59CB\u754C\u9762/xiaobiao/jiantou.png"
+    assetName: jiantou
+    localFileId: 2800000
+    rtMem: 240
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 0
+    width: 30
+    height: 18
+    abSize: 298
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao5.png"
+    assetName: qianyao5
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 270
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom3.png"
+    assetName: boom3
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 466
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao1.png
+    assetName: zhengtiao1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 638
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao2.png"
+    assetName: qianyao2
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 270
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j10.png"
+    assetName: j10
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 623
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Jump/Is_Jumping.png
+    assetName: Is_Jumping
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 582
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u8FC7\u573A\u52A8\u753B/youshang.png"
+    assetName: youshang
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 0
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 5089
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked3.png"
+    assetName: be attacked3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 870
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j4.png"
+    assetName: j4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 631
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Assets/Textures/STAR/star4.png
+    assetName: star4
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 22000
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l2.png"
+    assetName: l2
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1072
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h25.png"
+    assetName: h25
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke10.png
+    assetName: be attacke10
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 859
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/jump_right2/jr4.png
+    assetName: jr4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 832
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h12.png"
+    assetName: h12
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1827
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller4.png"
+    assetName: smaller4
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1123
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom10.png"
+    assetName: boom10
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 3044
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r7.png"
+    assetName: r7
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1333
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun11.jpg"
+    assetName: chilun11
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31615
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UICheckMark.png
+    assetName: UICheckMark
+    localFileId: 2800000
+    rtMem: 484
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 0
+    width: 11
+    height: 11
+    abSize: 119
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan2/s8.png
+    assetName: s8
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 795
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j3.png"
+    assetName: j3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 645
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j9.png"
+    assetName: j9
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1212
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/jump_left2/jl2.png
+    assetName: jl2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 927
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j2.png"
+    assetName: j2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 689
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun6.jpg"
+    assetName: chilun6
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31490
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom11.png"
+    assetName: boom11
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 3519
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u9759\u9ED82/jingmo4.png"
+    assetName: jingmo4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 637
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom5.png"
+    assetName: boom5
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2332
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan1/s10.png
+    assetName: s10
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 731
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5F00\u59CB\u754C\u9762/\u5355\u4EBA.png"
+    assetName: "\u5355\u4EBA"
+    localFileId: 2800000
+    rtMem: 800
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 0
+    width: 60
+    height: 27
+    abSize: 626
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi5.png"
+    assetName: juchi5
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2655
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan2/s4.png
+    assetName: s4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 722
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j21.png"
+    assetName: j21
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1328
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan1/s6.png
+    assetName: s6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 109
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j29.png"
+    assetName: j29
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/jump_left2/jl4.png
+    assetName: jl4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 854
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan1/s2.png
+    assetName: s2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 829
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao2.png
+    assetName: zhengtiao2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 727
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j32.png"
+    assetName: j32
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u8FC7\u573A\u52A8\u753B/zuoxia.png"
+    assetName: zuoxia
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 0
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 5358
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao9.png"
+    assetName: qianyao9
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 270
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/faster.png"
+    assetName: faster
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1194
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h31.png"
+    assetName: h31
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao3.png"
+    assetName: qianyao3
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 270
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIElement8px.png
+    assetName: UIElement8px
+    localFileId: 2800000
+    rtMem: 256
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 0
+    width: 8
+    height: 8
+    abSize: 90
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor11.png"
+    assetName: floor11
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 2485
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r12.png"
+    assetName: r12
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1315
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h1.png"
+    assetName: h1
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1775
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor10.png"
+    assetName: floor10
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 2363
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan1/s9.png
+    assetName: s9
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 109
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/attack2/attack8.png
+    assetName: attack8
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1596
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g5.png"
+    assetName: g5
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 3944
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u9759\u9ED82/jingmo10.png"
+    assetName: jingmo10
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 636
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d18.png"
+    assetName: d18
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2048
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun3.jpg"
+    assetName: chilun3
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31618
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h4.png"
+    assetName: h4
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1823
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g20.png"
+    assetName: g20
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1503
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d7.png"
+    assetName: d7
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1320
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l8.png"
+    assetName: l8
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1557
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke11.png
+    assetName: be attacke11
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 853
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g3.png"
+    assetName: g3
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1498
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u9759\u9ED82/jingmo7.png"
+    assetName: jingmo7
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 729
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller5.png"
+    assetName: smaller5
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 953
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke8.png
+    assetName: be attacke8
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 827
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h16.png"
+    assetName: h16
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller2.png"
+    assetName: smaller2
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1181
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j6.png"
+    assetName: j6
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1257
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j8.png"
+    assetName: j8
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1212
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h10.png"
+    assetName: h10
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1747
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/jump_left2/jl6.png
+    assetName: jl6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 798
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l10.png"
+    assetName: l10
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1447
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun9.jpg"
+    assetName: chilun9
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31771
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l13.png"
+    assetName: l13
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1245
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Die/d4.png
+    assetName: d4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 909
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g18.png"
+    assetName: g18
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 3477
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Assets/Textures/STAR/star9.png
+    assetName: star9
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 21445
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/jump_left2/jl3.png
+    assetName: jl3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 701
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r1.png"
+    assetName: r1
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 995
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Assets/Textures/zantingjiemian/z.png
+    assetName: z
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 8345
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor13.png"
+    assetName: floor13
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 113
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q1.png"
+    assetName: q1
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 917
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d13.png"
+    assetName: d13
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2035
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack2.png
+    assetName: attack2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1093
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F1/floor1.png"
+    assetName: floor1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1601
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j17.png"
+    assetName: j17
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r4.png"
+    assetName: r4
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1008
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r18.png"
+    assetName: r18
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1100
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u9759\u9ED82/jingmo5.png"
+    assetName: jingmo5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 704
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun10.jpg"
+    assetName: chilun10
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31605
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun4.jpg"
+    assetName: chilun4
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31664
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h5.png"
+    assetName: h5
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1836
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l17.png"
+    assetName: l17
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1170
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r13.png"
+    assetName: r13
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1210
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d15.png"
+    assetName: d15
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2065
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Run/pao3.png
+    assetName: pao3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 630
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png
+    assetName: UIFoldoutOpened
+    localFileId: 2800000
+    rtMem: 484
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 0
+    width: 11
+    height: 11
+    abSize: 126
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi11.png"
+    assetName: juchi11
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2542
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g8.png"
+    assetName: g8
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 3775
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d14.png"
+    assetName: d14
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2078
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d11.png"
+    assetName: d11
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2025
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j13.png"
+    assetName: j13
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1319
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q4.png"
+    assetName: q4
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 917
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h13.png"
+    assetName: h13
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1920
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g4.png"
+    assetName: g4
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 3323
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u9759\u9ED82/jingmo2.png"
+    assetName: jingmo2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 637
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j5.png"
+    assetName: j5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 638
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g10.png"
+    assetName: g10
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 4264
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao8.png"
+    assetName: qianyao8
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 270
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor4.png"
+    assetName: floor4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1916
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/attack2/attack9.png
+    assetName: attack9
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1079
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h6.png"
+    assetName: h6
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1836
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack5.png
+    assetName: attack5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 798
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Assets/Textures/STAR/star5.png
+    assetName: star5
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 21540
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao5.png
+    assetName: zhengtiao5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1061
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Jump/jump5.png
+    assetName: jump5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 909
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Assets/Textures/STAR/star2.png
+    assetName: star2
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 22748
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked12.png"
+    assetName: be attacked12
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 889
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j11.png"
+    assetName: j11
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 601
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao8.png
+    assetName: zhengtiao8
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 638
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/run_left2/paozuo3.png
+    assetName: paozuo3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 640
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j9.png"
+    assetName: j9
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 644
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g9.png"
+    assetName: g9
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 3917
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi7.png"
+    assetName: juchi7
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2671
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d6.png"
+    assetName: d6
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1249
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/run_left2/paozuo1.png
+    assetName: paozuo1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 592
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi1.png"
+    assetName: juchi1
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2346
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/run_right2/run2.png
+    assetName: run2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 540
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao3.png
+    assetName: zhengtiao3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 917
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller7.png"
+    assetName: smaller7
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 953
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan2/s6.png
+    assetName: s6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 109
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller1.png"
+    assetName: smaller1
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1181
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan2/s3.png
+    assetName: s3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 109
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/jump_left2/jl5.png
+    assetName: jl5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 904
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked4.png"
+    assetName: be attacked4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 976
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Die/d3.png
+    assetName: d3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1265
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j6.png"
+    assetName: j6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 666
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g6.png"
+    assetName: g6
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 3599
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png
+    assetName: Circle
+    localFileId: 2800000
+    rtMem: 29584
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 256
+    height: 256
+    abSize: 2305
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5F00\u59CB\u754C\u9762/xiaobiao/kaishi.png"
+    assetName: kaishi
+    localFileId: 2800000
+    rtMem: 672
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 38
+    height: 36
+    abSize: 226
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi4.png"
+    assetName: juchi4
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2614
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan1/s12.png
+    assetName: s12
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 109
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan1/s3.png
+    assetName: s3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 109
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d3.png"
+    assetName: d3
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1027
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan2/s2.png
+    assetName: s2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 719
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u6B63\u7740\u8DF32/z6.png"
+    assetName: z6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 908
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j30.png"
+    assetName: j30
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h21.png"
+    assetName: h21
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1864
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke7.png
+    assetName: be attacke7
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 528
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun1.jpg"
+    assetName: chilun1
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31654
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l19.png"
+    assetName: l19
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1177
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u9759\u9ED82/jingmo11.png"
+    assetName: jingmo11
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 654
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j23.png"
+    assetName: j23
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g22.png"
+    assetName: g22
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 189
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/jump_right2/jr2.png
+    assetName: jr2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 913
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q9.png"
+    assetName: q9
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 918
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked13.png"
+    assetName: be attacked13
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 658
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack6.png
+    assetName: attack6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 2014
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u6B63\u7740\u8DF32/z8.png"
+    assetName: z8
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 642
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked11.png"
+    assetName: be attacked11
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 891
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack9.png
+    assetName: attack9
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1381
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h9.png"
+    assetName: h9
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1747
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l18.png"
+    assetName: l18
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1153
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan1/s1.png
+    assetName: s1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 755
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j28.png"
+    assetName: j28
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller3.png"
+    assetName: smaller3
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1123
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun8.jpg"
+    assetName: chilun8
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31518
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j18.png"
+    assetName: j18
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/run_left2/paozuo4.png
+    assetName: paozuo4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 551
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack8.png
+    assetName: attack8
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1442
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan1/s4.png
+    assetName: s4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 739
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r16.png"
+    assetName: r16
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1115
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/attack2/attack6.png
+    assetName: attack6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 2000
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l4.png"
+    assetName: l4
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1063
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/miansi.png"
+    assetName: miansi
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1367
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom6.png"
+    assetName: boom6
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2438
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j8.png"
+    assetName: j8
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 667
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h19.png"
+    assetName: h19
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1886
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j25.png"
+    assetName: j25
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack10.png
+    assetName: attack10
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 597
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom1.png"
+    assetName: boom1
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 831
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u6B63\u7740\u8DF32/z3.png"
+    assetName: z3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 881
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi13.png"
+    assetName: juchi13
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2346
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun13.jpg"
+    assetName: chilun13
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31640
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j26.png"
+    assetName: j26
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1282
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png
+    assetName: UIFoldoutClosed
+    localFileId: 2800000
+    rtMem: 484
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 0
+    width: 11
+    height: 11
+    abSize: 130
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan2/s1.png
+    assetName: s1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 729
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j22.png"
+    assetName: j22
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j1.png"
+    assetName: j1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 593
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h18.png"
+    assetName: h18
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Jump/jump6.png
+    assetName: jump6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/attack2/attack2.png
+    assetName: attack2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 932
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan2/s10.png
+    assetName: s10
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 729
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j4.png"
+    assetName: j4
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1273
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun2.jpg"
+    assetName: chilun2
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31577
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Assets/Textures/STAR/star6.png
+    assetName: star6
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 21415
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r8.png"
+    assetName: r8
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1504
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d9.png"
+    assetName: d9
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1985
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g2.png"
+    assetName: g2
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 607
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j11.png"
+    assetName: j11
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1212
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j16.png"
+    assetName: j16
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom8.png"
+    assetName: boom8
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 3307
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke2.png
+    assetName: be attacke2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 740
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi2.png"
+    assetName: juchi2
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2519
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/run_right2/run4.png
+    assetName: run4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 514
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan2/s12.png
+    assetName: s12
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 109
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h22.png"
+    assetName: h22
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked6.png"
+    assetName: be attacked6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 823
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d8.png"
+    assetName: d8
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1253
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l16.png"
+    assetName: l16
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1165
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h7.png"
+    assetName: h7
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1747
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j12.png"
+    assetName: j12
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 666
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q7.png"
+    assetName: q7
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 917
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked10.png"
+    assetName: be attacked10
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 874
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/attack2/attack4.png
+    assetName: attack4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 788
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r17.png"
+    assetName: r17
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1119
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g24.png"
+    assetName: g24
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 189
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j20.png"
+    assetName: j20
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1333
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j2.png"
+    assetName: j2
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1219
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor1.png"
+    assetName: floor1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1678
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor7.png"
+    assetName: floor7
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1678
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d10.png"
+    assetName: d10
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1987
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r6.png"
+    assetName: r6
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1170
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h3.png"
+    assetName: h3
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1775
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q2.png"
+    assetName: q2
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 918
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/run_right2/run1.png
+    assetName: run1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 547
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g7.png"
+    assetName: g7
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 4022
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h29.png"
+    assetName: h29
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u9759\u9ED82/jingmo6.png"
+    assetName: jingmo6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 669
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Run/pao1.png
+    assetName: pao1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 588
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j10.png"
+    assetName: j10
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1212
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r5.png"
+    assetName: r5
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 990
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor8.png"
+    assetName: floor8
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1678
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack4.png
+    assetName: attack4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 790
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r3.png"
+    assetName: r3
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 984
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j5.png"
+    assetName: j5
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1257
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g21.png"
+    assetName: g21
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 667
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/no.png"
+    assetName: no
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 346
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5F00\u59CB\u754C\u9762/jindutiao/t.png"
+    assetName: t
+    localFileId: 2800000
+    rtMem: 17760
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 0
+    width: 217
+    height: 177
+    abSize: 1854
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao7.png
+    assetName: zhengtiao7
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 947
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Die/d5.png
+    assetName: d5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 510
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d17.png"
+    assetName: d17
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 2018
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor2.png"
+    assetName: floor2
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1916
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor9.png"
+    assetName: floor9
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1960
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g11.png"
+    assetName: g11
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 4417
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao6.png
+    assetName: zhengtiao6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 957
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r19.png"
+    assetName: r19
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1126
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g12.png"
+    assetName: g12
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 4112
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d1.png"
+    assetName: d1
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1032
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked1.png"
+    assetName: be attacked1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 654
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r14.png"
+    assetName: r14
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1108
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g1.png"
+    assetName: g1
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 189
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j24.png"
+    assetName: j24
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1227
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked7.png"
+    assetName: be attacked7
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 490
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h14.png"
+    assetName: h14
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1920
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u6B63\u7740\u8DF32/z7.png"
+    assetName: z7
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1011
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun12.jpg"
+    assetName: chilun12
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31530
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan2/s11.png
+    assetName: s11
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 732
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5F00\u59CB\u754C\u9762/\u53CC\u4EBA.png"
+    assetName: "\u53CC\u4EBA"
+    localFileId: 2800000
+    rtMem: 1248
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 0
+    width: 73
+    height: 32
+    abSize: 849
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u88AB\u653B\u51FB2/be attacked5.png"
+    assetName: be attacked5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 854
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom4.png"
+    assetName: boom4
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1729
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke6.png
+    assetName: be attacke6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 750
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao7.png"
+    assetName: qianyao7
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 270
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom9.png"
+    assetName: boom9
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 3558
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan1/s5.png
+    assetName: s5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 805
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l5.png"
+    assetName: l5
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1053
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke4.png
+    assetName: be attacke4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 773
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/jump_right2/jr6.png
+    assetName: jr6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 757
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke1.png
+    assetName: be attacke1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 602
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j7.png"
+    assetName: j7
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 683
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor6.png"
+    assetName: floor6
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1678
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h27.png"
+    assetName: h27
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1849
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Run/pao4.png
+    assetName: pao4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 545
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q3.png"
+    assetName: q3
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 918
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Die/d1.png
+    assetName: d1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 520
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r2.png"
+    assetName: r2
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1008
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l3.png"
+    assetName: l3
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1037
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor12.png"
+    assetName: floor12
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 2885
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke5.png
+    assetName: be attacke5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 723
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h26.png"
+    assetName: h26
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1825
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h32.png"
+    assetName: h32
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j7.png"
+    assetName: j7
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1212
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j27.png"
+    assetName: j27
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1318
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u9759\u9ED82/jingmo12.png"
+    assetName: jingmo12
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 663
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u9759\u9ED82/jingmo1.png"
+    assetName: jingmo1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 649
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u5355\u4EBA\u6A21\u5F0F/d5.png"
+    assetName: d5
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1042
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h20.png"
+    assetName: h20
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1869
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g16.png"
+    assetName: g16
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 4112
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P2/attack2/attack10.png
+    assetName: attack10
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 651
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun7.jpg"
+    assetName: chilun7
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 31568
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Assets/Textures/STAR/star1.png
+    assetName: star1
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 196640
+    width: 320
+    height: 180
+    abSize: 21669
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h23.png"
+    assetName: h23
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao4.png"
+    assetName: qianyao4
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 270
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Jump/jump4.png
+    assetName: jump4
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 864
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h30.png"
+    assetName: h30
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j19.png"
+    assetName: j19
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1358
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Jump/Is_Falling.png
+    assetName: Is_Falling
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 747
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l9.png"
+    assetName: l9
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1596
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h15.png"
+    assetName: h15
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1799
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack1.png
+    assetName: attack1
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 607
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j3.png"
+    assetName: j3
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1219
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor3.png"
+    assetName: floor3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1904
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q8.png"
+    assetName: q8
+    localFileId: 2800000
+    rtMem: 25920
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 918
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/shan2/s7.png
+    assetName: s7
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 873
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p2/r11.png"
+    assetName: r11
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1400
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u9759\u9ED82/jingmo8.png"
+    assetName: jingmo8
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 670
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack3.png
+    assetName: attack3
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 774
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/h2.png"
+    assetName: h2
+    localFileId: 2800000
+    rtMem: 31680
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 395
+    height: 180
+    abSize: 1775
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Assets/TextMesh Pro/Sprites/EmojiOne.png
+    assetName: EmojiOne
+    localFileId: 2800000
+    rtMem: 158432
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 512
+    height: 512
+    abSize: 85222
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l15.png"
+    assetName: l15
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1147
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/P2/\u6B63\u7740\u8DF32/z5.png"
+    assetName: z5
+    localFileId: 2800000
+    rtMem: 6400
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 120
+    height: 120
+    abSize: 1042
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: "Assets/Assets/Textures/\u7ED3\u675F\u754C\u9762/\u53CC\u4EBA\u6A21\u5F0F/p1/l1.png"
+    assetName: l1
+    localFileId: 2800000
+    rtMem: 57600
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 0
+    width: 320
+    height: 180
+    abSize: 1043
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+    assetName: LiberationSans SDF Atlas
+    localFileId: 28684132378477856
+    rtMem: 1048576
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    - res
+    maxPlaceholderSize: 589856
+    width: 1024
+    height: 1024
+    abSize: 325607
+  mAudios:
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/death.wav
+    assetName: death
+    localFileId: 8300000
+    rtMem: 43215
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/walk.wav
+    assetName: walk
+    localFileId: 8300000
+    rtMem: 20280
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/8bit_button_13.wav
+    assetName: 8bit_button_13
+    localFileId: 8300000
+    rtMem: 14087
+    warningFlag: 0
+    refs:
+    - 0
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/8bit_attacked.wav
+    assetName: 8bit_attacked
+    localFileId: 8300000
+    rtMem: 41245
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Audios/JumpLanding.wav
+    assetName: JumpLanding
+    localFileId: 8300000
+    rtMem: 8823
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/8bit_hit_21door.wav
+    assetName: 8bit_hit_21door
+    localFileId: 8300000
+    rtMem: 43314
+    warningFlag: 0
+    refs:
+    - 0
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/8bit_monste.wav
+    assetName: 8bit_monste
+    localFileId: 8300000
+    rtMem: 285762
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/Music/Traxman - Cocain Acid.mp3
+    assetName: Traxman - Cocain Acid
+    localFileId: 8300000
+    rtMem: 9883902
+    warningFlag: 0
+    refs:
+    - 0
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/longzi.wav
+    assetName: longzi
+    localFileId: 8300000
+    rtMem: 21603
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/ground.wav
+    assetName: ground
+    localFileId: 8300000
+    rtMem: 37418
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/huangguan.wav
+    assetName: huangguan
+    localFileId: 8300000
+    rtMem: 21317
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/boom.wav
+    assetName: boom
+    localFileId: 8300000
+    rtMem: 50166
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/shake.wav
+    assetName: shake
+    localFileId: 8300000
+    rtMem: 198763
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/Music/Traxman,Jack Frost - Clap Da Acid.mp3
+    assetName: Traxman,Jack Frost - Clap Da Acid
+    localFileId: 8300000
+    rtMem: 7536920
+    warningFlag: 0
+    refs:
+    - 0
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/8bit_hit_12.wav
+    assetName: 8bit_hit_12
+    localFileId: 8300000
+    rtMem: 50746
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Audios/pick.wav
+    assetName: pick
+    localFileId: 8300000
+    rtMem: 29091
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
   mMeshes: []
-  mScenes: []
+  mAnimations:
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/Other/P2WIN.anim
+    assetName: P2WIN
+    localFileId: 7400000
+    rtMem: 3412
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/Run_L2.anim
+    assetName: Run_L2
+    localFileId: 7400000
+    rtMem: 2820
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/start.anim
+    assetName: start
+    localFileId: 7400000
+    rtMem: 2904
+    warningFlag: 0
+    refs:
+    - 0
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/Smaller.anim
+    assetName: Smaller
+    localFileId: 7400000
+    rtMem: 2820
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/Other/gameOverSingle.anim
+    assetName: gameOverSingle
+    localFileId: 7400000
+    rtMem: 2708
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/Attacked2.anim
+    assetName: Attacked2
+    localFileId: 7400000
+    rtMem: 2988
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Animation/Fade_Start.anim
+    assetName: Fade_Start
+    localFileId: 7400000
+    rtMem: 4184
+    warningFlag: 0
+    refs:
+    - 0
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/Silence.anim
+    assetName: Silence
+    localFileId: 7400000
+    rtMem: 2988
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/JumpM.anim
+    assetName: JumpM
+    localFileId: 7400000
+    rtMem: 2792
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/JumpR.anim
+    assetName: JumpR
+    localFileId: 7400000
+    rtMem: 2736
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Animation/Other/HelpSingle.anim
+    assetName: HelpSingle
+    localFileId: 7400000
+    rtMem: 4748
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/Silence2.anim
+    assetName: Silence2
+    localFileId: 7400000
+    rtMem: 2988
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/FallingR2.anim
+    assetName: FallingR2
+    localFileId: 7400000
+    rtMem: 2680
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/FallingL2.anim
+    assetName: FallingL2
+    localFileId: 7400000
+    rtMem: 2680
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/Death.anim
+    assetName: Death
+    localFileId: 7400000
+    rtMem: 2848
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/Run_L.anim
+    assetName: Run_L
+    localFileId: 7400000
+    rtMem: 3012
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/Attacked.anim
+    assetName: Attacked
+    localFileId: 7400000
+    rtMem: 2988
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/Other/jiesuanUI_Single.anim
+    assetName: jiesuanUI_Single
+    localFileId: 7400000
+    rtMem: 3240
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Animation/Other/Help.anim
+    assetName: Help
+    localFileId: 7400000
+    rtMem: 4716
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/FallingM2.anim
+    assetName: FallingM2
+    localFileId: 7400000
+    rtMem: 2680
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/OnGroundL2.anim
+    assetName: OnGroundL2
+    localFileId: 7400000
+    rtMem: 2764
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/OnGroundR2.anim
+    assetName: OnGroundR2
+    localFileId: 7400000
+    rtMem: 2764
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/Ghost2.anim
+    assetName: Ghost2
+    localFileId: 7400000
+    rtMem: 3108
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/FallingR.anim
+    assetName: FallingR
+    localFileId: 7400000
+    rtMem: 2680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/JumpL.anim
+    assetName: JumpL
+    localFileId: 7400000
+    rtMem: 2784
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/OnGroundM2.anim
+    assetName: OnGroundM2
+    localFileId: 7400000
+    rtMem: 2792
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/FallingM.anim
+    assetName: FallingM
+    localFileId: 7400000
+    rtMem: 2680
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/Ground/GroundDissloveStart.anim
+    assetName: GroundDissloveStart
+    localFileId: 7400000
+    rtMem: 2988
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/Ghost.anim
+    assetName: Ghost
+    localFileId: 7400000
+    rtMem: 3108
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/JumpR2.anim
+    assetName: JumpR2
+    localFileId: 7400000
+    rtMem: 2680
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/Run_R2.anim
+    assetName: Run_R2
+    localFileId: 7400000
+    rtMem: 2820
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/JumpL2.anim
+    assetName: JumpL2
+    localFileId: 7400000
+    rtMem: 2680
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/Fade_End.anim
+    assetName: Fade_End
+    localFileId: 7400000
+    rtMem: 3932
+    warningFlag: 0
+    refs:
+    - 0
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/Other/Stopboard.anim
+    assetName: Stopboard
+    localFileId: 7400000
+    rtMem: 2720
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/Run_R.anim
+    assetName: Run_R
+    localFileId: 7400000
+    rtMem: 2820
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/OnGroundM.anim
+    assetName: OnGroundM
+    localFileId: 7400000
+    rtMem: 2792
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/OnGroundL.anim
+    assetName: OnGroundL
+    localFileId: 7400000
+    rtMem: 2840
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/Dontdie.anim
+    assetName: Dontdie
+    localFileId: 7400000
+    rtMem: 2884
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/punish1.anim
+    assetName: punish1
+    localFileId: 7400000
+    rtMem: 3448
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/JumpM2.anim
+    assetName: JumpM2
+    localFileId: 7400000
+    rtMem: 2736
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/FrontGround/FrontGround.anim
+    assetName: FrontGround
+    localFileId: 7400000
+    rtMem: 2848
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/Ground/GroundDisslove.anim
+    assetName: GroundDisslove
+    localFileId: 7400000
+    rtMem: 2988
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/Other/P1WIN.anim
+    assetName: P1WIN
+    localFileId: 7400000
+    rtMem: 3396
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/BackGround/backGround.anim
+    assetName: backGround
+    localFileId: 7400000
+    rtMem: 2988
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P2/Attack2.anim
+    assetName: Attack2
+    localFileId: 7400000
+    rtMem: 2988
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/Attack.anim
+    assetName: Attack
+    localFileId: 7400000
+    rtMem: 2988
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/FallingL.anim
+    assetName: FallingL
+    localFileId: 7400000
+    rtMem: 2764
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/P1/OnGroundR.anim
+    assetName: OnGroundR
+    localFileId: 7400000
+    rtMem: 2764
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/punish2.anim
+    assetName: punish2
+    localFileId: 7400000
+    rtMem: 3736
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Animation/Other/NoWIN.anim
+    assetName: NoWIN
+    localFileId: 7400000
+    rtMem: 2708
+    warningFlag: 0
+    refs:
+    - 1
+  mSharedSceneAssets:
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/BackGround/backGround.anim
+    assetType: 74
+    rtMem: 2988
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/BackGround/chilun1.controller
+    assetType: 91
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/Dontdie.anim
+    assetType: 74
+    rtMem: 2884
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/Fade.controller
+    assetType: 91
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Assets/Assets/Animation/Fade_End.anim
+    assetType: 74
+    rtMem: 3932
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/FrontGround/FrontGround.anim
+    assetType: 74
+    rtMem: 2848
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/FrontGround/juchi1.controller
+    assetType: 91
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/Ground/GroundDisslove.anim
+    assetType: 74
+    rtMem: 2988
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/Ground/GroundDissloveStart.anim
+    assetType: 74
+    rtMem: 2988
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/Ground_Main.controller
+    assetType: 91
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/Ground_Start.controller
+    assetType: 91
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/Other/Stopboard.anim
+    assetType: 74
+    rtMem: 2720
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/Other/board.controller
+    assetType: 91
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/Attack.anim
+    assetType: 74
+    rtMem: 2988
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/Attacked.anim
+    assetType: 74
+    rtMem: 2988
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/Death.anim
+    assetType: 74
+    rtMem: 2848
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/FallingL.anim
+    assetType: 74
+    rtMem: 2764
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/FallingM.anim
+    assetType: 74
+    rtMem: 2680
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/FallingR.anim
+    assetType: 74
+    rtMem: 2680
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/Ghost.anim
+    assetType: 74
+    rtMem: 3108
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/Ghost2.anim
+    assetType: 74
+    rtMem: 3108
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/JumpL.anim
+    assetType: 74
+    rtMem: 2784
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/JumpM.anim
+    assetType: 74
+    rtMem: 2792
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/JumpR.anim
+    assetType: 74
+    rtMem: 2736
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/OnGroundL.anim
+    assetType: 74
+    rtMem: 2840
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/OnGroundM.anim
+    assetType: 74
+    rtMem: 2792
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/OnGroundR.anim
+    assetType: 74
+    rtMem: 2764
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/Run_L.anim
+    assetType: 74
+    rtMem: 3012
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/Run_R.anim
+    assetType: 74
+    rtMem: 2820
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/P1/Silence.anim
+    assetType: 74
+    rtMem: 2988
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/Player1AC.controller
+    assetType: 114
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/Punish2.controller
+    assetType: 91
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/Smaller.anim
+    assetType: 74
+    rtMem: 2820
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/Smaller.controller
+    assetType: 91
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Assets/Assets/Animation/punish1.anim
+    assetType: 74
+    rtMem: 3448
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Animation/punish1.controller
+    assetType: 91
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Assets/Assets/Animation/punish2.anim
+    assetType: 74
+    rtMem: 3736
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Assets/Assets/Audios/JumpLanding.wav
+    assetType: 83
+    rtMem: 8823
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Audios/Mixer/Music.mixer
+    assetType: 245
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Assets/Assets/Fonts/IPix_zhengwen.ttf
+    assetType: 28
+    rtMem: 65536
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Assets/Assets/Fonts/SUPERSCR_biaoti.TTF
+    assetType: 28
+    rtMem: 65536
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Materials/Ground.physicsMaterial2D
+    assetType: 62
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Materials/Player.physicsMaterial2D
+    assetType: 62
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Prefabs/Dontdie.prefab
+    assetType: 61
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Prefabs/Faster.prefab
+    assetType: 61
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Prefabs/Ground.prefab
+    assetType: 61
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Prefabs/Punish2.prefab
+    assetType: 82
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Prefabs/Smaller.prefab
+    assetType: 95
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Prefabs/punish1.prefab
+    assetType: 82
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Shaders/Sprite-Lit-Default.shader
+    assetType: 48
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Shaders/Universal Render Pipeline_2D_Sprite-Lit-Default
+      zhaun.mat
+    assetType: 21
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Shaders/Universal Render Pipeline_2D_Sprite-Lit-Default.mat
+    assetType: 21
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Assets/Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    assetType: 28
+    rtMem: 65536
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+    assetType: 28
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+    assetType: 21
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    assetType: 48
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack1.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack10.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack2.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack3.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack4.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack5.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack6.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack7.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack8.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Attack/attack9.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Die/d1.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Die/d2.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Die/d3.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Die/d4.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Die/d5.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Jump/Is_Falling.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Jump/Is_Jumping.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Jump/jump4.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Jump/jump5.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Jump/jump6.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao1.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao2.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao3.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao4.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao5.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao6.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao7.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/JumpFront/zhengtiao8.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Run/pao1.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Run/pao2.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Run/pao3.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/Run/pao4.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke1.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke10.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke11.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke12.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke13.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke2.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke3.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke4.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke5.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke6.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke7.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke8.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/P1/beAttack/be attacke9.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j1.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j10.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j11.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j12.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j2.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j3.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j4.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j5.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j6.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j7.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j8.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/P1/\u9759\u9ED8/j9.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan1/s1.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan1/s10.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan1/s11.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan1/s12.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan1/s2.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan1/s3.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan1/s4.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan1/s5.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan1/s6.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan1/s7.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan1/s8.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan1/s9.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan2/s1.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan2/s10.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan2/s11.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan2/s12.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan2/s2.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan2/s3.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan2/s4.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan2/s5.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan2/s6.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan2/s7.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan2/s8.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/shan2/s9.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Assets/Textures/zantingjiemian/z.png
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q1.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q2.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q3.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q4.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q5.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q6.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q7.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q8.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u524D\u6447/q9.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom1.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom10.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom11.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom2.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom3.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom4.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom5.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom6.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom7.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom8.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5706\u5F62\u653B\u51FB/\u653B\u51FB/boom9.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F1/floor1.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor1.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor10.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor11.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor12.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor13.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor2.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor3.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor4.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor5.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor6.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor7.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor8.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5730\u677F/\u6837\u5F0F2/floor9.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao1.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao2.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao3.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao4.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao5.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao6.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao7.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao8.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u524D\u6447/qianyao9.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g1.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g10.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g11.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g12.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g13.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g14.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g15.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g16.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g17.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g18.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g19.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g2.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g20.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g21.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g22.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g23.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g24.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g3.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g4.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g5.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g6.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g7.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g8.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5782\u76F4\u653B\u51FB/\u653B\u51FB/g9.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u5F00\u59CB\u754C\u9762/xiaobiao/kaishi.png"
+    assetType: 28
+    rtMem: 672
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j1.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j10.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j11.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j12.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j13.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j14.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j15.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j16.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j17.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j18.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j19.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j2.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j20.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j21.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j22.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j23.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j24.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j25.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j26.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j27.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j28.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j29.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j3.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j30.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j31.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j32.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j4.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j5.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j6.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j7.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j8.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u73A9\u6CD5/1\u89D2\u8272/j9.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun1.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun10.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun11.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun12.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun13.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun2.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun3.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun4.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun5.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun6.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun7.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun8.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u4E2D\u666F/chilun9.jpg"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi1.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi11.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi13.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi2.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi4.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi5.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u80CC\u666F\u52D5\u756B/\u524D\u666F/juchi7.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/faster.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/miansi.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller1.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller2.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller3.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller4.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller5.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller6.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u836F\u6C34/smaller/smaller7.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u8FC7\u573A\u52A8\u753B/youshang.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: "Assets/Assets/Textures/\u8FC7\u573A\u52A8\u753B/zuoxia.png"
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png
+    assetType: 28
+    rtMem: 29584
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+    assetType: 28
+    rtMem: 29584
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+    assetType: 21
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader
+    assetType: 48
+    rtMem: 0
+    refs: 0100000002000000
+  mScenes:
+  - onDemandDownload: 0
+    assetPath: Assets/Assets/Scenes/MenuScene.unity
+    assetName: 
+    localFileId: -1
+    rtMem: 0
+    warningFlag: 0
+    refs: []
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Scenes/GameScene.unity
+    assetName: 
+    localFileId: -1
+    rtMem: 484471
+    warningFlag: 0
+    refs: []
+  - onDemandDownload: 1
+    assetPath: Assets/Assets/Scenes/SingleGameScene.unity
+    assetName: 
+    localFileId: -1
+    rtMem: 322782
+    warningFlag: 0
+    refs: []
   mConfigCCD:
     useCCD: 0
-    cosKey: 
-    projectGuid: 
-    bucketUuid: 
-    bucketName: 
-    badgeName: 
+    uosSecret: 299859d6a6e94eaeb633d6bb1f4dc0c2
+    uosAppid: 950e3ab2-1f2a-46b9-a3f8-ac095afc3a54
+    bucketUuid: 3ba2c512-16a6-460d-a22f-6f7ccce05e9c
+    bucketName: "Sinking\u7684Buckets"
+    badgeName: latest
+    ttAppid: 
+    targetPlatfrom: 

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!28 &2800000
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EmojiOne.png-2800000
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 32
+  m_Height: 32
+  m_CompleteImageSize: 832
+  m_MipsStripped: 0
+  m_WebStreaming: 0
+  m_PriorityLevel: 0
+  m_UploadedMode: 0
+  m_DataStreamData:
+    size: 0
+    path: 
+  m_TextureFormat: 50
+  m_TextureManagerMultiFormatSetting: 
+  m_MipCount: 6
+  m_IsReadable: 0
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 1
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 832
+  _typelessdata: 5d5027ab89cca3f489f25361dc32ff7f518559539b5e14e614f6227f02b10f885d888ea7622909487b2b0b30c44998b27d1045273323aba05ba89b149a8306b914a90634cab8a2ce84bb4c72ee7bbf58514996276243d44426610400aac5503f5d84cf6d6be6df6bf6b4365f84ad71eb6284b99146c8777d73fce744cd90d7fa62499ac5e7326d29805614d0a7ffe90b6284299812c87d777eb3dcd7ccedfcff62842f9416c877d733ebbdcddeccffcfe2e8ad23d292052925a02a55fcf7afbcc244c3e207c13bd3ecedccf7f7bcb7d7084103175a0804e06bfff60fbe400128c284439728c8c5b28bcc104bbfbb79bbe2488e63dd550a193760009f1d1a80005284bf5b65e191486f88455897c545f3c28423563cc8000041448402021b91f1f184bd9516ca9bf67ffe766adf6bf66ac284b51d16c8edcc7cd7fc77df37d37ec2842dfe41c84cec7ddcf7d77f37dabb5d901334ea88aecd6cea8fe34620980bf184359c16ca9bf677f3766a77dbf66a5d100034aabea31e21ea89726d3800327da886e7afa5a267a51fa22d3f905e515131676dea4b29919412545bde85e3736284239512489cdf7dddbddd17ec137a7208ff879f97c7cfa31744d8398042ea6284b99116ca7b6b7353f7d7bfcfdecec284bd3542c89a6ad3fd3deececfcccce38083e89698898017ffe05fbce80788e2e8d923d216052927a0bdf6da6b2fa4c284ab1914c808ecadc0de08ec9dc2ff62842bf814c8e0ede0ede0ddc0edb2bbe2088223d2b143498f60fae9a79f3d6061c987354ccd5043ace506007cdff7816d7029744e8dde7e62b68228fcd6b7efc284bddd42c83dd7cbefdcbfbfe3d75c0449ae23d666a11a11a532789e27789e02d130f4999cc797fab9d7f6193cccc3c284e3f618c83281f1f77334c6113bbd6d48a1c77f9988473dd7e8197c00fe47046998b596f5c81c1dcd32e0fb3e00fc5185db8987ea870d1aaca0bbdf792dae61516d345255de7be2920a1c60e7099c5d84d773495715f62e49178e04c710075dc8cb6bb534cddef95e159b00e8757f6d8883afd1f2c4defb746a1570ce399f5ea0f733e8b2d9711f4aa450a1444af802a91d78c52bc47ab7b54d5c562afdbff2a0179bb6ca34568c8aa558e900f0e5fcfdffffffffffffe1e1b4b45353b3b3
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_OriginalWidth: 0
+  m_OriginalHeight: 0
+  m_OriginalAssetGuid: 00000000000000000000000000000000

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!28 &2800000
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: chilun12.jpg-2800000
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 32
+  m_Height: 18
+  m_CompleteImageSize: 640
+  m_MipsStripped: 0
+  m_WebStreaming: 0
+  m_PriorityLevel: 0
+  m_UploadedMode: 0
+  m_DataStreamData:
+    size: 0
+    path: 
+  m_TextureFormat: 48
+  m_TextureManagerMultiFormatSetting: 
+  m_MipCount: 1
+  m_IsReadable: 0
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 1
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 6
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 640
+  _typelessdata: 42022990b0104e44b37bf31bfb0ae7725222454c44619a80b928d3335a6bfc86432221c8aa9c0c100caa63588b1fd9d442028598101046454444804880baa0bf41020b102026181e00a01f1fed36d80652000b0e2024181c000000a8423a914042000b0c2022181a00000000ff3fff0051e82ccb80881c1a0a06a4c1260469ca4202290cb04e4e24bb3f567b603d5ef7420205199110460660fd00a88040809433020b3a2046183c00c423405e4cdda751020b102024181e0000000000d8dc8841020b0e2022181c000000000000b09952000b0e2024181c0000002850a2952e53000b0e2024181e000030ecd5fe6adb33020b2e203e183400e707b41f80e68751022d483a502c3a4099cb4e5c06aa324202a505accc0c04c310e5f031eddce34202851c10900627201f206f20c7204ffcfdffffffffffff050510100c0cfffffcfdffffffffffff050510100c0cfffffcfdffffffffffff050510100c0cffff5222450c046918403fe00620080000004202852410140627dedf3d5d5169ec094202ad18b4921005d551953d6e95f0135222c92c446d98645ec937b00d6497685222452c446120012008c019843a80ddfcfdffffffffffff050510100c0cfffffcfdffffffffffff050510100c0cffff41020b122026181c002000040000180052021502c6641238df5cbb8b2313dc024202ad0db0100e243e3fd01ffb3b9e95520215420661124546bf3c1f3bbe24f1422455894e520581f0edf0edf0ed074451020b262036182e0000020001400080fcfdffffffffffff050510100c0cfffffcfdffffffffffff050510100c0cffff41020b1c202c1820001800036000200051022b383844282e402033c1c124425841023b44464e303c00c01a9806d775fc
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_OriginalWidth: 0
+  m_OriginalHeight: 0
+  m_OriginalAssetGuid: 00000000000000000000000000000000
