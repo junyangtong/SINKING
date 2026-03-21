@@ -46,6 +46,18 @@ public class PlayControllerSingle : MonoBehaviour
     [Header("声音部分")]
     private AudioSource audioSource;
     public AudioClip pick;
+    
+    [Header("相机边界")]
+    public Camera mainCamera;
+    
+    // 动态计算的屏幕边界
+    private float screenLeftEdge;
+    private float screenRightEdge;
+    private float screenTopEdge;
+    private float screenBottomEdge;
+    
+    // 玩家边界安全边距
+    public float boundaryMargin = 0.3f;
 
 
     void Start()
@@ -56,6 +68,31 @@ public class PlayControllerSingle : MonoBehaviour
         anim = GetComponent<Animator>();
         //声音部分
         audioSource = transform.GetComponent<AudioSource>();
+        
+        // 初始化相机边界
+        InitializeCameraBounds();
+    }
+    
+    /// <summary>
+    /// 初始化相机边界（动态计算，适配竖屏）
+    /// </summary>
+    private void InitializeCameraBounds()
+    {
+        if (mainCamera == null)
+        {
+            mainCamera = Camera.main;
+        }
+        
+        if (mainCamera != null)
+        {
+            float vertExtent = mainCamera.orthographicSize;
+            float horzExtent = vertExtent * (Screen.width / (float)Screen.height);
+            
+            screenLeftEdge = -horzExtent;
+            screenRightEdge = horzExtent;
+            screenTopEdge = vertExtent;
+            screenBottomEdge = -vertExtent;
+        }
     }
 
     // Update is called once per frame
@@ -115,7 +152,37 @@ public class PlayControllerSingle : MonoBehaviour
         anim.SetBool("runDir", runDir);
         anim.SetBool("isMove", isMove);
 
-
+        // 动态边界检测（适配竖屏）
+        ClampPlayerPosition();
+    }
+    
+    /// <summary>
+    /// 限制玩家位置在屏幕范围内
+    /// </summary>
+    private void ClampPlayerPosition()
+    {
+        // 每帧更新边界（处理屏幕旋转等情况）
+        if (mainCamera != null)
+        {
+            float vertExtent = mainCamera.orthographicSize;
+            float horzExtent = vertExtent * (Screen.width / (float)Screen.height);
+            
+            screenLeftEdge = -horzExtent;
+            screenRightEdge = horzExtent;
+            screenTopEdge = vertExtent;
+            screenBottomEdge = -vertExtent;
+        }
+        
+        // 限制玩家位置，考虑边界安全边距
+        float minX = screenLeftEdge + boundaryMargin;
+        float maxX = screenRightEdge - boundaryMargin;
+        float minY = screenBottomEdge + boundaryMargin;
+        float maxY = screenTopEdge - boundaryMargin;
+        
+        Vector3 pos = transform.position;
+        pos.x = Mathf.Clamp(pos.x, minX, maxX);
+        pos.y = Mathf.Clamp(pos.y, minY, maxY);
+        transform.position = pos;
     }
     //跳跃
     private void Jump()
@@ -276,10 +343,9 @@ public class PlayControllerSingle : MonoBehaviour
                 gameObject.transform.position += new Vector3(0, -GhostMoveSpeed * Time.deltaTime, 0);
             }
             
-            float tempY;
-            float tempX;
-            tempY = Mathf.Clamp(transform.position.y, -6, 6);
-            tempX = Mathf.Clamp(transform.position.x, -12, 12);
+            // 使用动态边界限制幽灵移动范围
+            float tempY = Mathf.Clamp(transform.position.y, screenBottomEdge + boundaryMargin, screenTopEdge - boundaryMargin);
+            float tempX = Mathf.Clamp(transform.position.x, screenLeftEdge + boundaryMargin, screenRightEdge - boundaryMargin);
             gameObject.transform.position = new Vector3(tempX, tempY, 0);
             
             if (Restartime > 0)

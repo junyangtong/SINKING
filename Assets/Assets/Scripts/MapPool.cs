@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class MapPool : MonoBehaviour
 {
+    [Header("已弃用 - 请使用PlatformGenerator")]
+    [Tooltip("此脚本已被PlatformGenerator替代，请禁用此组件")]
+    public bool isDeprecated = true;
+
     public static MapPool instance;
     public GameObject Row1;
     private float timeRemaining = 6;
@@ -13,16 +17,23 @@ public class MapPool : MonoBehaviour
 
     void Start()
     {
-        
+        if (isDeprecated)
+        {
+            Debug.LogWarning("MapPool: 此脚本已弃用，请使用PlatformGenerator替代。");
+            enabled = false;
+            return;
+        }
     }
     void Awake()
     {
+        if (isDeprecated) return;
+        
         instance = this;
-        //初始化对象池
         FillPool();
     }
     void Update()
     {
+        if (isDeprecated) return;
 
             if (timeRemaining > 0)
             {
@@ -34,33 +45,36 @@ public class MapPool : MonoBehaviour
 
                 timeRemaining = 6;
             }
-            
+
     }
     public void FillPool()
     {
+        if (isDeprecated) return;
+        
         for(int i=0; i<Rowcount;i++)
         {
             var newRow = Instantiate(Row1);
             newRow.transform.SetParent(transform);
-
-            //取消启用，返回对象池
             ReturnPool(newRow);
         }
     }
 
     public void ReturnPool(GameObject gameObject)
     {
+        if (isDeprecated) return;
+        
         gameObject.SetActive(false);
-
         availableObjects.Enqueue(gameObject);
     }
     public GameObject GetFromPool()
     {
+        if (isDeprecated) return null;
+        
         if(availableObjects.Count == 0)
         {
             FillPool();
         }
-        
+
         var outRow = availableObjects.Dequeue();
         outRow.SetActive(true);
         foreach(Transform child in outRow.transform)

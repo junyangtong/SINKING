@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!1 &3869894026100063163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 7
+  m_Component:
+  - component: {fileID: 1762185184395907041}
+  - component: {fileID: 2953003143501880945}
+  m_Layer: 0
+  m_HasEditorInfo: 1
+  m_Name: PlatformGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1762185184395907041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3869894026100063163}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2953003143501880945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3869894026100063163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 098cb0124b2862c4ea589458549d57f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breakableBlockPrefab: {fileID: 8446525759975979061, guid: 4fa15531e94b8134bb364363b91b5a20, type: 3}
+  unbreakableBlockPrefab: {fileID: 8446525759637662821, guid: 499735620f598744d8c6e963414b5af9, type: 3}
+  blockSize: 1
+  blockSpacing: 1.1
+  blocksPerPlatform: 10
+  gapChance: 0.2
+  breakableChance: 0.3
+  moveSpeed: 0.5
+  platformLifetime: 25
+  spawnInterval: 6
+  spawnY: -6
+  randomXMin: -12
+  randomXMax: -47
+  mainCamera: {fileID: 0}
