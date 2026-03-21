@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// 可破碎砖块 - 被玩家攻击后破碎
+/// [已弃用] 可破碎砖块 - 被玩家攻击后破碎
+/// 攻击碎裂逻辑已整合到 Ground.cs 中，请使用 Ground.cs 代替。
 /// 支持对象池复用
 /// </summary>
+[System.Obsolete("攻击碎裂逻辑已整合到 Ground.cs，请使用 Ground 组件代替 BreakableBlock")]
 public class BreakableBlock : MonoBehaviour
 {
     [Header("特效设置")]

@@ -122,13 +122,21 @@ public class Ground : MonoBehaviour
     }
 
     /// <summary>
-    /// 玩家踩踏检测
+    /// 玩家踩踏检测 & 攻击破碎检测
     /// </summary>
     void OnTriggerEnter2D(Collider2D other)
     {
         // 玩家或惩罚物体触发溶解
         if (other.CompareTag("Player1") || other.CompareTag("Player2") || other.CompareTag("Distroy"))
         {
+            StartDissolve();
+        }
+        
+        // 被玩家攻击(hitBox)时也触发溶解/破碎
+        if (other.CompareTag("hitBox"))
+        {
+            if (enableDebugLog)
+                Debug.Log($"Ground: 被攻击破碎 {gameObject.name}");
             StartDissolve();
         }
     }
