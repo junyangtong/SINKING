@@ -409,16 +409,16 @@ public class PlatformGenerator : MonoBehaviour
             block.transform.SetParent(platform.transform);
             block.transform.localPosition = blockPosition;
 
-            // 根据预制体实际渲染尺寸缩放到 blockSize
-            // 读取 SpriteRenderer 的 bounds 获取预制体原始世界尺寸
+            // 根据 Sprite 原始尺寸缩放到 blockSize
             SpriteRenderer sr = block.GetComponentInChildren<SpriteRenderer>();
-            if (sr != null)
+            if (sr != null && sr.sprite != null)
             {
-                float originalWidth = sr.bounds.size.x;
-                if (originalWidth > 0)
+                // sprite 原始世界宽度 = 像素宽度 / pixelsPerUnit
+                float spriteWorldWidth = sr.sprite.rect.width / sr.sprite.pixelsPerUnit;
+                if (spriteWorldWidth > 0)
                 {
-                    float scaleFactor = blockSize / originalWidth;
-                    block.transform.localScale = Vector3.one * scaleFactor;
+                    float scaleFactor = blockSize / spriteWorldWidth;
+                    block.transform.localScale = new Vector3(scaleFactor, scaleFactor, 1f);
                 }
             }
 
