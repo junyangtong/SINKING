@@ -131,22 +131,25 @@ public class PlayControllerSingle : MonoBehaviour
     //移动
     private void Movement()
     {
-        isMove = false;
-        moveX = (float)SwipeInputManager.Instance.GetHorizontalDirection(playerIndex);
-        if(moveX!=0){
-            isMove = true;
-        }
-        rigi.AddForce(new Vector2(moveX * MoveSpeed,0f),ForceMode2D.Force);
-        if(moveX>0){
+        // 使用连续输入值（-1.0 ~ 1.0），比离散的 -1/0/1 更平滑
+        moveX = SwipeInputManager.Instance.GetHorizontalAxis();
+        isMove = Mathf.Abs(moveX) > 0.05f;
+
+        // 直接设置水平速度，而不是 AddForce（避免惯性漂移）
+        float targetVelocityX = moveX * MoveSpeed;
+        rigi.velocity = new Vector2(targetVelocityX, rigi.velocity.y);
+
+        // 动画方向判定（带小死区防止频繁切换）
+        if(moveX > 0.1f){
             runDir = false;
             anim.SetBool("Middle", false);
         }
-        if(moveX==0){
-            anim.SetBool("Middle", true);
-        }
-        if(moveX<0){
+        else if(moveX < -0.1f){
             runDir = true;
             anim.SetBool("Middle", false);
+        }
+        else{
+            anim.SetBool("Middle", true);
         }
         anim.SetFloat("Blend", moveX);
         anim.SetBool("runDir", runDir);
