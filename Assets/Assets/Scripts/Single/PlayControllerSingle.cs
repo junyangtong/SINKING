@@ -131,6 +131,9 @@ public class PlayControllerSingle : MonoBehaviour
     //移动
     private void Movement()
     {
+        // 死亡状态不执行移动（避免对 Static body 设置 velocity）
+        if (isDeath) return;
+
         // 使用连续输入值（-1.0 ~ 1.0），比离散的 -1/0/1 更平滑
         moveX = SwipeInputManager.Instance.GetHorizontalAxis();
         isMove = Mathf.Abs(moveX) > 0.05f;

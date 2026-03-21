@@ -17,9 +17,9 @@ public class SwipeInputManager : MonoBehaviour
     [Tooltip("触发滑动手势的最小距离（像素）")]
     [SerializeField] private float minSwipeDistance = 50f;
     [Tooltip("水平移动的死区（像素），低于此值视为不移动")]
-    [SerializeField] private float horizontalDeadZone = 10f;
+    [SerializeField] private float horizontalDeadZone = 5f;
     [Tooltip("水平输入平滑速度（越大越灵敏，越小越平滑）")]
-    [SerializeField] private float horizontalSmoothSpeed = 12f;
+    [SerializeField] private float horizontalSmoothSpeed = 20f;
 
     // 触控状态
     private int activeTouchId = -1;           // 当前追踪的触摸ID
@@ -186,9 +186,9 @@ public class SwipeInputManager : MonoBehaviour
             float absX = Mathf.Abs(swipeVector.x);
             float absY = Mathf.Abs(swipeVector.y);
 
-            // 只有垂直分量明显大于水平分量时才触发上下手势
-            // 避免水平移动时误触跳跃/攻击
-            if (absY > absX * 1.2f)
+            // 垂直分量大于水平分量的一半即可触发上下手势
+            // 允许斜上方/斜下方滑动也能触发跳跃/攻击
+            if (absY > absX * 0.5f)
             {
                 if (swipeVector.y > 0)
                 {
