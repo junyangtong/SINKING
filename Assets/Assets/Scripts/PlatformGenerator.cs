@@ -27,8 +27,8 @@ public class PlatformGenerator : MonoBehaviour
     [Header("砖块尺寸设置")]
     [Tooltip("单个砖块的实际尺寸")]
     public float blockSize = 0.5f;
-    [Tooltip("砖块之间的间距")]
-    public float blockSpacing = 0.02f;
+    [Tooltip("砖块之间的间距（建议设为0避免角色卡缝）")]
+    public float blockSpacing = 0f;
     [Tooltip("两侧边距（防止砖块超出屏幕）")]
     public float sideMargin = 0.3f;
     #endregion

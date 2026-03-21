@@ -128,6 +128,12 @@ public class PlayControllerSingle : MonoBehaviour
         audioSource.PlayOneShot(clip);
     }
 
+    [Header("移动手感")]
+    [Tooltip("地面摩擦减速系数（越大减速越快，0=无摩擦）")]
+    public float groundFriction = 8f;
+    [Tooltip("空中摩擦减速系数（比地面小，保留更多惯性）")]
+    public float airFriction = 2f;
+
     //移动
     private void Movement()
     {
@@ -138,9 +144,24 @@ public class PlayControllerSingle : MonoBehaviour
         moveX = SwipeInputManager.Instance.GetHorizontalAxis();
         isMove = Mathf.Abs(moveX) > 0.05f;
 
-        // 直接设置水平速度，而不是 AddForce（避免惯性漂移）
+        float currentVelX = rigi.velocity.x;
         float targetVelocityX = moveX * MoveSpeed;
-        rigi.velocity = new Vector2(targetVelocityX, rigi.velocity.y);
+
+        if (isMove)
+        {
+            // 有输入时：快速趋近目标速度
+            currentVelX = Mathf.Lerp(currentVelX, targetVelocityX, Time.deltaTime * 15f);
+        }
+        else
+        {
+            // 无输入时：根据地面/空中状态自然减速（保留惯性）
+            float friction = isOnGround ? groundFriction : airFriction;
+            currentVelX = Mathf.Lerp(currentVelX, 0f, Time.deltaTime * friction);
+            // 速度很小时直接归零
+            if (Mathf.Abs(currentVelX) < 0.1f) currentVelX = 0f;
+        }
+
+        rigi.velocity = new Vector2(currentVelX, rigi.velocity.y);
 
         // 动画方向判定（带小死区防止频繁切换）
         if(moveX > 0.1f){
