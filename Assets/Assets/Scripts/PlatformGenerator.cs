@@ -409,8 +409,19 @@ public class PlatformGenerator : MonoBehaviour
             block.transform.SetParent(platform.transform);
             block.transform.localPosition = blockPosition;
 
-            // 确保砖块尺寸正确
-            block.transform.localScale = new Vector3(blockSize, blockSize, 1f);
+            // 根据预制体实际渲染尺寸缩放到 blockSize
+            // 读取 SpriteRenderer 的 bounds 获取预制体原始世界尺寸
+            SpriteRenderer sr = block.GetComponentInChildren<SpriteRenderer>();
+            if (sr != null)
+            {
+                float originalWidth = sr.bounds.size.x;
+                if (originalWidth > 0)
+                {
+                    float scaleFactor = blockSize / originalWidth;
+                    block.transform.localScale = Vector3.one * scaleFactor;
+                }
+            }
+
             block.SetActive(true);
         }
     }
